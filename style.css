@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style-type: none;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+ul{
+    gap: 1rem;
+    display: flex;
+    justify-content: end;
+}
+
+header{
+    padding: 1.3rem;
+    background-color: brown;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width: 300px;
+    background-color: brown;
+    color: white;
+    border: none;
+    padding: .3rem;
+    margin-top: 1.3rem
+}
